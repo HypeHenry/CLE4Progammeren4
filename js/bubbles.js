@@ -1,6 +1,6 @@
-var Bubbles = /** @class */ (function () {
-    function Bubbles() {
-        this.div;
+var Bubble = /** @class */ (function () {
+    function Bubble() {
+        console.log("I am a bubble");
     }
-    return Bubbles;
+    return Bubble;
 }());

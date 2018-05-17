@@ -1,13 +1,22 @@
+let screenWidth = window.innerWidth;
+let screenHeight = window.innerHeight;
+
+
 //
 // geef de vis een random positie en een random kleur
 //
+
+for (fish = 0; fish < 100; i++){
+// pak de breedte en de hoogte
+
+
 let fishes = document.getElementsByTagName("fish")
 let fish = fishes[0]
 fish.style.left = "200px"
 fish.style.top = "100px"
 fish.style.webkitFilter = "hue-rotate(200deg)"
 fish.style.filter = "hue-rotate(200deg)"
-
+}
 //
 // geef de bubble een random positie
 //
